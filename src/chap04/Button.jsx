@@ -2,7 +2,7 @@ import React from "react";
 
 function Button(b){
     return(
-        <button className={`bg-${b.a}`}>
+        <button className={`c-${b.asdfasdfasdf}`}>
             <b>
                 {b.children}
             </b>
@@ -11,3 +11,4 @@ function Button(b){
 }
 
 export default Button;
+
