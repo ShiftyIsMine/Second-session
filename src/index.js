@@ -1,25 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './chap04/Button.css';
-import './chap05/Clock.css';
+// import './chap04/Button.css';
+// import './chap05/Clock.css';
 import App from './App';
 import ConfirmDialog from './chap04/ConfirmDialog';
 import reportWebVitals from "./reportWebVitals";
-import Clock from './chap05/Clock';
+import Comment from './chap060912/Comment';
+import CommentList from "./chap060912/CommentList";
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(() =>{
+
     root.render(
         <React.StrictMode>
-            <Clock />
+            <CommentList />
         </React.StrictMode>
     );
-    }
-    ,1000
-)
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
