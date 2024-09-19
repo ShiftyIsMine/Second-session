@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './chap060919/styles.css'
 // import './chap04/Button.css';
 // import './chap05/Clock.css';
 import App from './App';
 import ConfirmDialog from './chap04/ConfirmDialog';
 import reportWebVitals from "./reportWebVitals";
+import Notification from "./chap060919/Notification";
 import Comment from './chap060912/Comment';
 import CommentList from "./chap060912/CommentList";
+import NotificationList from "./chap060919/NotificationList";
 
 
 
@@ -15,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <CommentList />
+            <NotificationList />
         </React.StrictMode>
     );
 
