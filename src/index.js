@@ -11,13 +11,14 @@ import Notification from "./chap060919/Notification";
 import Comment from './chap060912/Comment';
 import CommentList from "./chap060912/CommentList";
 import NotificationList from "./chap060919/NotificationList";
+import Accommodate from "./chap060926/Accommodate";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <NotificationList />
+            <Accommodate />
         </React.StrictMode>
     );
 
