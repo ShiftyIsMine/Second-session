@@ -13,7 +13,6 @@ import CommentList from "./chap060912/CommentList";
 import NotificationList from "./chap060919/NotificationList";
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
