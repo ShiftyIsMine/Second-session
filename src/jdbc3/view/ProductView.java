@@ -6,8 +6,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ProductView {
-    public String title="Product List";
-    public void printProduct(ArrayList<Product> proList) {
+    public static String title="Product List";
+    public static void printProduct(ArrayList<Product> proList) {
         for(Product product: proList) {
             System.out.printf("- 제품번호 : %s\n",product.getSerial());
             System.out.printf("- 제품명 : %s\n",product.getName());
@@ -17,15 +17,20 @@ public class ProductView {
         }
     }
 
-    public void printHead(){
+    public static void printHead(){
         System.out.println("************************************");
         System.out.println("*********   "+title+"   *********");
         System.out.println("************************************");
     }
 
-    public void printFooter(){
+    public static void printFooter(){
         System.out.println("************************************");
         System.out.println("=========    Print End     =========");
         System.out.println("************************************");
+    }
+    public static void printView(ArrayList<Product> arrList){
+        printHead();
+        printProduct(arrList);
+        printFooter();
     }
 }
