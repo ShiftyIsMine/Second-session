@@ -24,6 +24,4 @@ class ConfirmButton2 extends React.Component{
     }
 }
 
-
-
 export default ConfirmButton2
