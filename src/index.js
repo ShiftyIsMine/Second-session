@@ -20,16 +20,22 @@ import InputTest from "./chap081010/InputTest";
 import ConfirmButton from "./chap081010/ConfirmButton";
 import ConfirmButton2 from "./chap081010/ConfirmButton2";
 import ConfirmButton3 from "./chap081010/ConfirmButton3";
-import Greeting from "./chp09/Greeting";
+// import Greeting from "./chp09/Greeting";
 import LoginControl from "./chp09/LoginControl";
+import Greeting from "./testtest/Greeting";
+import MailBox from "./chp09/MailBox";
+import LoginControl2 from "./chp09/LoginControl2";
 // import MyButton from "./justpracprac/MyButton";
 // import Counter from "./justpracprac/Counter";
+import Toolbar from "./chp09/Toolbar";
+import LandingPage from "./chp09/LandingPage";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <LoginControl />
+            <LandingPage/>
         </React.StrictMode>
     );
 // If you want to start measuring performance in your app, pass a function
