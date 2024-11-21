@@ -29,13 +29,17 @@ import LoginControl2 from "./chp09/LoginControl2";
 // import Counter from "./justpracprac/Counter";
 import Toolbar from "./chp09/Toolbar";
 import LandingPage from "./chp09/LandingPage";
+import NameForm from "./chap11/NameForm";
+import RequestForm from "./chap11/RequestForm";
+import NameRequestForm from "./chap11/NameRequestForm";
+import SignUp from "./chap11/SignUp"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <LandingPage/>
+            <SignUp/>
         </React.StrictMode>
     );
 // If you want to start measuring performance in your app, pass a function
