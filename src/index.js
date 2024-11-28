@@ -33,13 +33,17 @@ import NameForm from "./chap11/NameForm";
 import RequestForm from "./chap11/RequestForm";
 import NameRequestForm from "./chap11/NameRequestForm";
 import SignUp from "./chap11/SignUp"
-
+import Calculator from "./chap12/Calculator";
+import Calculator2 from "./chap12/Calculator2";
+// import Calculator3 from "./chap12/Calculator3";
+import Calculator4 from "./chap12/Caculator4";
+import DistanceInput from "./chap12/DistanceInput";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <SignUp/>
+            <DistanceInput/>
         </React.StrictMode>
     );
 // If you want to start measuring performance in your app, pass a function
