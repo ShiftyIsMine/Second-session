@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './chap060919/styles.css'
+import './finalAssignment/styles.css'
 // import './chap04/Button.css';
 // import './chap05/Clock.css';
 import App from './App';
@@ -38,12 +39,17 @@ import Calculator2 from "./chap12/Calculator2";
 // import Calculator3 from "./chap12/Calculator3";
 import Calculator4 from "./chap12/Caculator4";
 import DistanceInput from "./chap12/DistanceInput";
+// import ProfileCard from "./chap13/ProfileCard";
+import ProfileCard from "./finalAssignment/ProfileCard";
+// import MainPage from "./finalAssignment/MainPage";
+import MainPage from "./chap13_air/components/MainPage";
+import airapp from "./chap13_air/airapp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <DistanceInput/>
+            <airapp />
         </React.StrictMode>
     );
 // If you want to start measuring performance in your app, pass a function
